@@ -17,6 +17,8 @@ print(
     s2
 )  # now s2 points to "world" while s1 points to "something_new" and "hello" was garbage collected upon execution because no reference variable was pointing to it.
 
+# s1[0] = 'K' # gives error since it is immutable
+
 
 # Mutable object: List
 a = [1, 2, 3]
