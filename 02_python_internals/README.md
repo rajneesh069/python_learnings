@@ -3,6 +3,7 @@
 - Python code is **compiled** down to **bytecode**, similar to Java.
 - The bytecode is then fed into the **Python Virtual Machine (PVM)**, which can run both Python scripts and bytecode.
 - Python is considered an **interpreted language** because the bytecode fed to the Python Virtual Machine is executed **line-by-line** rather than being compiled directly into machine code.
+- It is a garbage collected language.
 
 ## Python Virtual Machine (PVM)
 - The PVM has a **code loop** that iterates over Python bytecode or the `.py` scripts.
