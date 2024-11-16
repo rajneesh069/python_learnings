@@ -17,6 +17,7 @@ num = "0123456789"
 print(num[0:])
 print(num[:-1])
 print(num[-1:])
+print(num[0:5:2])  # hops 1 value in between
 
 name = "    Sachin Mishra     "
 print(name.strip())  # removes leading and ending whitespaces
