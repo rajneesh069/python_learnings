@@ -28,3 +28,24 @@ a.append(4)  # Modify the list
 print(a)  # Output: [1, 2, 3, 4]
 print(b)  # Output: [1, 2, 3, 4]
 # The object itself got changed unlike strings or integers.
+
+k = 10
+l = 10
+print(
+    k is l
+)  # True, because for immutable data types same reference can be reused(for efficiency)
+
+l = 100
+print(
+    k is l
+)  # False, now a new object is created with value = 10 and l points to it now
+
+# For mutable objects, each time a new reference is created
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a is b)  # false, because different references
+
+a = b  # we made the references same, now if we change anything in either 'a'  or 'b' changes will be reflected to both, but in immutable data types, it won't happen as a new object will be created and the value will be assigned to that reference
+
+a[0] = 100
+print(b)  # [100, 2, 3]

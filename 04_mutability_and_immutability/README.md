@@ -1,6 +1,7 @@
 # Python Memory Management, Objects, and References
 
-- Everythig is an object in Python.
+- Everything is an object in Python.
+- For mutable objects, the data is not reused, but for immutable objects, the same data `can` be reused (depending on the context).
 
 ## 1. Mutability and Immutability in Python
 
