@@ -60,7 +60,7 @@ def main():
     while True:
         print("-----------------------------")
         print(f"1. List the favourite videos")
-        print(f"2. Add youtube video(s)")
+        print(f"2. Add a youtube video")
         print(f"3. Update a youtube video detail")
         print(f"4. Delete a youtube video")
         print(f"5. Exit the app")
